@@ -10,19 +10,20 @@
         ],
         "skipLibCheck": true,
         /* Bundler mode */
-        "moduleResolution": "bundler",
-        "allowImportingTsExtensions": true,
+        "moduleResolution": "bundler",   
+      
         "resolveJsonModule": true,
         "isolatedModules": true,
-        "noEmit": true,
+      
         /* Linting */
         "strict": true,
+        "outDir": "./dist",
         "strictPropertyInitialization": false,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true
     },
     "include": [
-        "src"
+        "src/**/*"
     ]
 }
